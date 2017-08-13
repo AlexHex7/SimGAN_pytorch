@@ -1,0 +1,2 @@
+The MPIIGaze Dataset download and extract here.
+And then use utils/mpii_gaze_dataset_organize.py to process it.
