@@ -1,5 +1,5 @@
-# SimGAN_pytorch  
-Refer to [wayaai/SimGAN](https://github.com/wayaai/SimGAN)(Keras&amp;Tensorflow)  
+# SimGAN_pytorch
+Refer to [wayaai/SimGAN](https://github.com/wayaai/SimGAN)(Keras&amp;Tensorflow)
 Implementation of Apple's Learning from Simulated and Unsupervised Images through Adversarial Training
 ---
 
@@ -19,11 +19,11 @@ I have tried lots of hyper parameter and network structure, but the result is st
 The network structure in my code is deferent from wayyai's code now.
 
 The results of my exiperiments is bellow:
-![](images/image_2.png)   
-![](images/image_3.png) 
+![](images/image_2.png)
+![](images/image_3.png)
 ---
 
-## Something about training GAN   
+## Something about training GAN
 Someone told me some tricks about [how to train GAN](https://github.com/soumith/ganhacks)
 Thank him and the people who contribute to https://github.com/soumith/ganhacks.
 It helps me a lot. And I learn a lot from it.
