@@ -1,7 +1,6 @@
 # SimGAN_pytorch
-Refer to [wayaai/SimGAN](https://github.com/wayaai/SimGAN)(Keras&amp;Tensorflow)
+Refer to [wayaai/SimGAN](https://github.com/wayaai/SimGAN)(Keras&amp;Tensorflow)  
 Implementation of Apple's Learning from Simulated and Unsupervised Images through Adversarial Training
----
 
 ## Thank
 I used Tensorflow and Keras before, and recently I'm learning pytorch. So I transfered the code of https://github.com/wayaai/SimGAN (Tensorflow+Keras) to pytorch.
@@ -10,7 +9,6 @@ The code of https://github.com/wayaai/SimGAN helps me a lot, thanks!
 Some code in my repository still use his, It contains:
 1. mpii_gaze_dataset_organize.py
 2. image_history_buffer.py
----
 
 ## Statement
 My experiment can not reach the result of the Paper [Learning from Simulated and Unsupervised Images through Adversarial Training](https://arxiv.org/abs/1612.07828)
@@ -18,16 +16,14 @@ My experiment can not reach the result of the Paper [Learning from Simulated and
 I have tried lots of hyper parameter and network structure, but the result is still bad.
 The network structure in my code is deferent from wayyai's code now.
 
-The results of my exiperiments is bellow:
+The results of my exiperiments is bellow:  
 ![](images/image_2.png)
 ![](images/image_3.png)
----
 
 ## Something about training GAN
-Someone told me some tricks about [how to train GAN](https://github.com/soumith/ganhacks)
-Thank him and the people who contribute to https://github.com/soumith/ganhacks.
+Someone told me some tricks about [how to train GAN](https://github.com/soumith/ganhacks)  
+Thank him and the people who contribute to https://github.com/soumith/ganhacks.  
 It helps me a lot. And I learn a lot from it.
----
 
 ## Dataset
 You can download the dataset refer to https://github.com/wayaai/SimGAN.
@@ -42,13 +38,9 @@ You can see more details about this dataset in [here](http://www.cl.cam.ac.uk/re
 
 I only use 1.2M UnityEyes images(52 pics), and 214k MPIIGaze images(144 pics) like where the [paper](https://arxiv.org/abs/1612.07828) said.
 
-
----
-
 ## Environment
 1.  python3.5
 2. pytorch 0.2
----
 
 ## Now
 I still tuning the parameters and checking if something wrong in my code...
