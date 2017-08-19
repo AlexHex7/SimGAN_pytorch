@@ -315,6 +315,6 @@ if __name__ == '__main__':
     obj.pre_train_d()
     obj.train()
 
-    # obj.generate_all_train_image()
+    obj.generate_all_train_image()
 
 
